@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="payment_mode">
+   <children>
+      <Text layoutX="114.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payment" wrappingWidth="169.5361328125">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Text>
+      <Text fill="#c91e71" layoutX="284.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="mode" wrappingWidth="99.37841796875">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Text>
+      <Button blendMode="DIFFERENCE" layoutX="205.0" layoutY="129.0" mnemonicParsing="false" onAction="#cash_on_delivery" prefHeight="27.0" prefWidth="178.0" text="Cash on delivery" />
+      <Button blendMode="DIFFERENCE" disable="true" layoutX="204.0" layoutY="173.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="178.0" text="credit card" />
+      <Button blendMode="DIFFERENCE" disable="true" layoutX="204.0" layoutY="224.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="178.0" text="Debit card" />
+      <Button blendMode="DIFFERENCE" disable="true" layoutX="204.0" layoutY="269.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="178.0" text="Paytm" />
+      <Button blendMode="DIFFERENCE" layoutX="22.0" layoutY="340.0" mnemonicParsing="false" text="Back" />
+   </children>
+</Pane>

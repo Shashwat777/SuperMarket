@@ -7,7 +7,7 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="su_login">
    <children>
       <Text layoutX="14.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Super " wrappingWidth="222.61865234375">
          <font>
@@ -19,17 +19,18 @@
             <Font size="52.0" />
          </font>
       </Text>
-      <TextField layoutX="180.0" layoutY="139.0" promptText="Id" />
-      <Text layoutX="223.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign up" wrappingWidth="109.7744140625">
+      <TextField fx:id="id" layoutX="180.0" layoutY="139.0" promptText="Id" />
+      <Text layoutX="208.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign up" wrappingWidth="109.7744140625">
          <font>
             <Font size="23.0" />
          </font>
       </Text>
-      <Button layoutX="202.0" layoutY="234.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="123.0" text="Enter">
+      <Button layoutX="202.0" layoutY="234.0" mnemonicParsing="false" onAction="#Display_menue" prefHeight="50.0" prefWidth="123.0" text="Enter">
          <font>
             <Font size="29.0" />
          </font>
       </Button>
-      <PasswordField layoutX="180.0" layoutY="187.0" promptText="Password" />
+      <PasswordField fx:id="password" layoutX="180.0" layoutY="187.0" onAction="#Display_menue" promptText="Password" />
+      <Button layoutX="53.0" layoutY="306.0" mnemonicParsing="false" onAction="#open_menue" text="Back" />
    </children>
 </Pane>

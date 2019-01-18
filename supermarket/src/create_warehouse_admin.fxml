@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="create_warehouse_admin">
+   <children>
+      <Text layoutX="14.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create ">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <Text fill="#a80934" layoutX="114.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <TextField fx:id="chid" layoutX="187.0" layoutY="156.0" promptText="Choose Id" />
+      <PasswordField fx:id="chpassword" layoutX="187.0" layoutY="194.0" promptText="choose password" />
+      <PasswordField fx:id="renterpassword" layoutX="187.0" layoutY="232.0" promptText="re-enter password" />
+      <TextField fx:id="whid" layoutX="187.0" layoutY="267.0" promptText="Enter warehouse Id" />
+      <Button layoutX="233.0" layoutY="303.0" mnemonicParsing="false" onAction="#create" text="Create" />
+      <Button layoutX="22.0" layoutY="359.0" mnemonicParsing="false" onAction="#menue" text="Menue" />
+   </children>
+</Pane>

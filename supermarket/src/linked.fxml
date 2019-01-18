@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="linked">
+   <children>
+      <Text fill="#d70b63" layoutX="173.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Store:" wrappingWidth="132.24365234375">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <Label layoutX="173.0" layoutY="170.0" />
+      <Text layoutX="199.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fill="#c9246f" layoutX="121.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Warehouse:">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <Label fx:id="stid" layoutX="308.0" layoutY="59.0" prefHeight="39.0" prefWidth="132.0" text="St 123">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="whid" layoutX="319.0" layoutY="209.0" prefHeight="39.0" prefWidth="90.0" text="Wh123">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Text layoutX="211.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Linked to" wrappingWidth="147.7099609375">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Button layoutX="255.0" layoutY="290.0" mnemonicParsing="false" onAction="#menue" text="Menue" />
+   </children>
+</Pane>

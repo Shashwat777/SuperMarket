@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="storeadditem">
+   <children>
+      <TextField fx:id="name" layoutX="186.0" layoutY="54.0" promptText="enter name" />
+      <TextField fx:id="qnty" layoutX="186.0" layoutY="91.0" promptText="enter qnty" />
+      <TextField fx:id="price" layoutX="186.0" layoutY="128.0" promptText="enter price" />
+      <TextField fx:id="h" layoutX="186.0" layoutY="166.0" promptText="set h" />
+      <TextField fx:id="k" layoutX="186.0" layoutY="209.0" promptText="set k" />
+      <TextArea fx:id="description" layoutX="170.0" layoutY="246.0" prefHeight="103.0" prefWidth="198.0" promptText="enter item description" />
+      <Button layoutX="442.0" layoutY="329.0" mnemonicParsing="false" onAction="#add" text="Add" />
+      <Button layoutX="34.0" layoutY="329.0" mnemonicParsing="false" onAction="#back" text="back" />
+      <AnchorPane fx:id="mpane" layoutX="385.0" layoutY="5.0" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</Pane>

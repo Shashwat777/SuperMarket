@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="search">
+   <children>
+      <Label layoutX="8.0" layoutY="14.0" prefHeight="17.0" prefWidth="149.0" text="Store name">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="search" layoutX="14.0" layoutY="73.0" prefHeight="27.0" prefWidth="196.0" promptText="Search store" />
+      <Button blendMode="DIFFERENCE" layoutX="231.0" layoutY="68.0" mnemonicParsing="false" onAction="#enter" prefHeight="16.0" prefWidth="93.0" text="Enter">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button blendMode="DIFFERENCE" layoutX="14.0" layoutY="352.0" mnemonicParsing="false" onAction="#select_store" text="Select Store" />
+      <Button blendMode="DIFFERENCE" layoutX="509.0" layoutY="25.0" mnemonicParsing="false" onAction="#cart" prefHeight="38.0" prefWidth="70.0" text="Cart">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <AnchorPane fx:id="mpane" layoutX="7.0" layoutY="133.0" prefHeight="200.0" prefWidth="589.0" />
+   </children>
+</Pane>

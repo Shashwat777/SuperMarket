@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="enter_address">
+   <children>
+      <Text layoutX="31.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fill="#e8099d" layoutX="122.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="address">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <TextArea layoutX="200.0" layoutY="94.0" prefHeight="200.0" prefWidth="200.0" promptText="Enter Address " />
+      <TextField layoutX="217.0" layoutY="308.0" promptText="Enter Pincode" />
+      <Button layoutX="14.0" layoutY="343.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <Button layoutX="442.0" layoutY="343.0" mnemonicParsing="false" onAction="#complete_purchase" prefHeight="27.0" prefWidth="154.0" text="Complete Purchase" />
+   </children>
+</Pane>

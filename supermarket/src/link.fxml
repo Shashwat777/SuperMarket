@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Establish_link">
+   <children>
+      <Text layoutX="40.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Establish" wrappingWidth="127.427734375">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text fill="#d10a7a" layoutX="167.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Link" wrappingWidth="90.2255859375">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <TextField fx:id="stid" layoutX="217.0" layoutY="160.0" promptText="Store Id" />
+      <TextField fx:id="whid" layoutX="217.0" layoutY="200.0" promptText="Warehouse id" />
+      <Button layoutX="257.0" layoutY="252.0" mnemonicParsing="false" onAction="#link" text="Establish" />
+      <Button layoutX="40.0" layoutY="332.0" mnemonicParsing="false" onAction="#back" text="Back" />
+   </children>
+</Pane>

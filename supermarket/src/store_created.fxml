@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="storecreated">
+   <children>
+      <Text layoutX="14.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Store" wrappingWidth="74.06494140625">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text fill="#d70c75" layoutX="99.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="created">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text layoutX="218.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Store Id">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Text>
+      <Label fx:id="iddisplay" layoutX="258.0" layoutY="176.0" text="Label" />
+      <Button layoutX="230.0" layoutY="223.0" mnemonicParsing="false" onAction="#menue" prefHeight="29.0" prefWidth="90.0" text="Menue" />
+   </children>
+</Pane>

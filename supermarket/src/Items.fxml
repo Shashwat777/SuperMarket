@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="items">
+   <children>
+      <Label layoutX="14.0" layoutY="42.0" prefHeight="34.0" prefWidth="205.0" text="Product Name">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="172.0" prefHeight="28.0" prefWidth="153.0" text="Description">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="382.0" layoutY="95.0" text="Price">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="385.0" layoutY="144.0" text="Qnty">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="242.0" layoutY="46.0" mnemonicParsing="false" text="Add to cart" />
+      <Button layoutX="21.0" layoutY="340.0" mnemonicParsing="false" onAction="#back" prefHeight="27.0" prefWidth="76.0" text="Back">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

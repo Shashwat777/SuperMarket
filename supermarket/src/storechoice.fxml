@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="store_choice">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="391.0" prefWidth="593.0">
+         <children>
+            <Text layoutX="25.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select store ">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Button layoutX="37.0" layoutY="334.0" mnemonicParsing="false" onAction="#back" prefHeight="27.0" prefWidth="58.0" text="Back" />
+            <AnchorPane layoutX="456.0" layoutY="106.0" prefHeight="200.0" prefWidth="200.0" />
+            <AnchorPane fx:id="mpane" layoutX="51.0" layoutY="96.0" prefHeight="196.0" prefWidth="474.0">
+               <children>
+                  <Text layoutX="170.0" layoutY="5.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ratings">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="368.0" layoutY="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Store">
+                     <font>
+                        <Font size="29.0" />
+                     </font>
+                  </Text>
+               </children></AnchorPane>
+         </children></AnchorPane>
+  </content>
+   <contextMenu>
+      <ContextMenu>
+        <items>
+          <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+        </items>
+      </ContextMenu>
+   </contextMenu>
+</ScrollPane>

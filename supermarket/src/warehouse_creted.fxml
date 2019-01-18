@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="warehouse_created">
+   <children>
+      <Text layoutX="181.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Warehouse Id" wrappingWidth="193.2060546875">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <Button blendMode="DIFFERENCE" layoutX="28.0" layoutY="359.0" mnemonicParsing="false" text="Back" textOverrun="LEADING_WORD_ELLIPSIS">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Button>
+      <Text layoutX="20.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Warehouse" wrappingWidth="148.9833984375">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text fill="#d3076d" layoutX="177.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="created">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Button layoutX="226.0" layoutY="208.0" mnemonicParsing="false" onAction="#Opensuper_user_menue" prefHeight="32.0" prefWidth="104.0" text="Menue" />
+      <Label fx:id="iddisplay" layoutX="183.0" layoutY="166.0" prefHeight="34.0" prefWidth="187.0" text="123">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

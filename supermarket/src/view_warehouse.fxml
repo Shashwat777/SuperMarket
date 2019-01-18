@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view_warehouse">
+   <children>
+      <Text layoutX="14.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="View" wrappingWidth="100.453125">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Text>
+      <Text fill="#a40849" layoutX="84.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Warehouse" wrappingWidth="184.5859375">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <TextField fx:id="tf" layoutX="84.0" layoutY="109.0" promptText="Enter Warehouse id " />
+      <Button layoutX="14.0" layoutY="359.0" mnemonicParsing="false" onAction="#menue" text="Menue" />
+      <AnchorPane fx:id="mpane" layoutX="194.0" layoutY="166.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button layoutX="463.0" layoutY="97.0" mnemonicParsing="false" onAction="#search" text="Search" />
+   </children>
+</Pane>

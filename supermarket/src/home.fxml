@@ -8,17 +8,11 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home">
    <children>
-      <ImageView fitHeight="77.0" fitWidth="600.0" layoutY="39.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="39.0">
-         <image>
-            <Image url="@../Desktop/Screenshot%202018-10-28%20at%2021.39.21.png" />
-         </image>
-      </ImageView>
       <Pane layoutX="-34.0" layoutY="90.0" prefHeight="278.0" prefWidth="609.0">
          <children>
-            <Button blendMode="DIFFERENCE" cache="true" graphicTextGap="5.0" layoutX="81.0" layoutY="186.0" prefHeight="67.0" prefWidth="217.0" text="Customer" textFill="#0fdb73" textOverrun="WORD_ELLIPSIS" wrapText="true">
+            <Button blendMode="DIFFERENCE" cache="true" graphicTextGap="5.0" layoutX="81.0" layoutY="186.0" onAction="#customer" prefHeight="67.0" prefWidth="217.0" text="Customer" textFill="#0fdb73" textOverrun="WORD_ELLIPSIS" wrapText="true">
                <effect>
                   <Glow level="0.0" />
                </effect>
@@ -26,24 +20,24 @@
                   <Font name="Comic Sans MS" size="37.0" />
                </font>
             </Button>
-            <Button blendMode="DIFFERENCE" contentDisplay="TOP" layoutX="81.0" layoutY="94.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="217.0" text="Super user" textFill="#0fdb73">
+            <Button blendMode="DIFFERENCE" contentDisplay="TOP" layoutX="81.0" layoutY="94.0" mnemonicParsing="false" onAction="#superuser" prefHeight="77.0" prefWidth="217.0" text="Super user" textFill="#0fdb73">
                <font>
                   <Font name="Comic Sans MS" size="30.0" />
                </font>
             </Button>
-            <Button blendMode="DIFFERENCE" layoutX="356.0" layoutY="94.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="239.0" text="Store admin" textFill="#0fdb73">
+            <Button blendMode="DIFFERENCE" layoutX="356.0" layoutY="94.0" mnemonicParsing="false" onAction="#storeadmin" prefHeight="78.0" prefWidth="239.0" text="Store admin" textFill="#0fdb73">
                <font>
                   <Font name="Comic Sans MS" size="26.0" />
                </font>
             </Button>
-            <Button blendMode="DIFFERENCE" layoutX="356.0" layoutY="191.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="239.0" text="Warehouse admin" textFill="#0fdb73">
+            <Button blendMode="DIFFERENCE" layoutX="356.0" layoutY="191.0" mnemonicParsing="false" onAction="#warehouseadmin" prefHeight="68.0" prefWidth="239.0" text="Warehouse admin" textFill="#0fdb73">
                <font>
                   <Font name="Comic Sans MS" size="24.0" />
                </font>
             </Button>
-            <ImageView fitHeight="58.0" fitWidth="105.0" layoutX="276.0" layoutY="14.0">
+            <ImageView fitHeight="142.0" fitWidth="354.0" layoutX="154.0" layoutY="-70.0">
                <image>
-                  <Image url="@AP/family-shopping-cartoon-flat-concept-vector-13552266.jpg" />
+                  <Image url="@../../../Downloads/logo2.png" />
                </image>
             </ImageView>
          </children>

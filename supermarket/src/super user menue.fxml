@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="su_menue">
+   <children>
+      <Button layoutX="291.0" layoutY="235.0" mnemonicParsing="false" onAction="#add_warehouse" prefHeight="27.0" prefWidth="231.0" text="Add Warehouse">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="291.0" layoutY="309.0" mnemonicParsing="false" onAction="#add_store" prefHeight="27.0" prefWidth="231.0" text="Add Store" />
+      <Button layoutX="291.0" layoutY="271.0" mnemonicParsing="false" onAction="#open_establishlink" prefHeight="29.0" prefWidth="231.0" text="Link">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Text layoutX="14.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Super" wrappingWidth="153.0">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Text>
+      <Text fill="#c40a41" layoutX="136.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="user">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+      <Button layoutX="292.0" layoutY="83.0" mnemonicParsing="false" onAction="#create_store_admin" prefHeight="38.0" prefWidth="231.0" text="Create store Admin" />
+      <Button layoutX="291.0" layoutY="131.0" mnemonicParsing="false" onAction="#create_warehouse_admin" prefHeight="27.0" prefWidth="231.0" text="Create Warehouse Admin" />
+      <Button layoutX="292.0" layoutY="167.0" mnemonicParsing="false" onAction="#view_store" prefHeight="27.0" prefWidth="231.0" text="View Store" />
+      <Button layoutX="292.0" layoutY="200.0" mnemonicParsing="false" onAction="#view_warehouse" prefHeight="27.0" prefWidth="231.0" text="View Warehouse" />
+      <Button layoutX="32.0" layoutY="359.0" mnemonicParsing="false" onAction="#back" text="Back" />
+   </children>
+</Pane>
